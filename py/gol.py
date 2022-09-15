@@ -38,9 +38,9 @@ def set_alive_cells(rows, cols):
   """ Randomically set cells alive and return the board """
   
   board = []
-  for row in range(0, rows - 1): 
+  for row in range(0, rows): 
     board.append([])
-    for col in range(0, cols - 1):
+    for col in range(0, cols):
       if 0.5 > random.random():
         board[row].append("X")
       else:
