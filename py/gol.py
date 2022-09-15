@@ -26,12 +26,12 @@ def gol():
   rows = 25
   cols = 25
   board = set_alive_cells(rows, cols)
-  # 10 generations
+  # 0 to 10 generations
   for i in range(0, 11):
     print("Gen %s:" % i)
     print_board(board)
     print()
-    board = generate_next_board(board);
+    board = generate_next_board(board)
 
 
 def set_alive_cells(rows, cols):
