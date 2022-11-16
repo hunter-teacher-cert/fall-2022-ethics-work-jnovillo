@@ -13,9 +13,9 @@ Adult groups will be seated together if possible. If there is no room to allocat
 People who fly alone will be randomly assigned seats following the current economy and economy plus rules.
 
 ### Priority considered for economy seat assignation 
-Family with children
-Adult group
-Flying alone
+* Family with children
+* Adult group
+* Flying alone
 
 ### Future improvements
 Other improvements that could be done but are not implemented for this assignment for time reasons are:
