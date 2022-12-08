@@ -667,4 +667,4 @@ class Gerry:
 
 
 if __name__ == '__main__':
-    Gerry(row_column=6, blue_percent=0.55, district_count=4, make_win="R", grouping_blue=False)
+    Gerry(row_column=6, blue_percent=0.52, district_count=4, make_win="R", grouping_blue=False)
